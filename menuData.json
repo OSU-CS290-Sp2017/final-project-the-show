@@ -2,127 +2,126 @@
   {
     "id":"A2",
     "name":"Steamed Chicken w/ Hot Chili Oil",
-    "price":"$11.99"
+    "price":"11.99"
   },
 
   {
     "id":"A8",
     "name":"Szechuan Red Oil Wonton",
-    "price":"$8.99"
+    "price":"8.99"
   },
 
   {
     "id":"B1",
     "name":"Beef Ribs w/ Black Pepper Saurce",
-    "price":"$19.99"
+    "price":"19.99"
   },
 
   {
     "id":"B2",
     "name":"Stir-fried Beef w/ Cumin",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"B3",
     "name":"Braised Beef Brisket with Turnip",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"S2",
     "name":"Braised Fish",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"C4",
     "name":"XinJiang Chicken",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"C7",
     "name":"Chicken w/ Ginger and Green Onion",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"D9",
     "name":"Pork Hot & Spicy Dried Pot",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"D14",
     "name":"Pork Trotter Hot & Spicy Dried Pot",
-    "price":"$15.99"
+    "price":"15.99"
   },
 
   {
     "id":"H6",
     "name":"Fish Filet w/ Hot & Spicy Gravy",
-    "price":"$15.99"
+    "price":"15.99"
   },
 
   {
     "id":"H12",
     "name":"Home-Style Pot",
-    "price":"$15.99"
+    "price":"15.99"
   },
 
   {
     "id":"P1",
     "name":"Twice Cooked Pork Belly",
-    "price":"$13.99"
+    "price":"13.99"
   },
 
   {
     "id":"P2",
     "name":"Braised Dongpo Pork Belly",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"P4",
     "name":"Shredded Pork w/ Green Pepper",
-    "price":"$12.99"
+    "price":"12.99"
   },
 
   {
     "id":"P16",
     "name":"Garlic Spiced Ribs",
-    "price":"$14.99"
+    "price":"14.99"
   },
 
   {
     "id":"S5",
     "name":"Sauteed Squid w/ Black Pepper & Salt",
-    "price":"$15.99"
+    "price":"15.99"
   },
 
   {
     "id":"V3",
     "name":"Home-Style Tofu",
-    "price":"$10.99"
+    "price":"10.99"
   },
 
   {
     "id":"V7",
     "name":"Dried-cook Green Bean",
-    "price":"$11.99"
+    "price":"11.99"
   },
 
   {
     "id":"B4",
     "name":"Dry Tofu Lamb Clay Pot",
-    "price":"$17.99"
+    "price":"17.99"
   },
 
   {
     "id":"B5",
     "name":"Pork Ear w/ Red Oil",
-    "price":"$14.99"
+    "price":"14.99"
   },
-
 ]
