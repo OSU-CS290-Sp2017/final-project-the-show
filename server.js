@@ -21,6 +21,10 @@ app.get('/', function(req, res, next){
   res.render('menuPage', templateArgs);
 });
 
+app.get('/main', function(req, res, next){
+  res.render('mainPage');
+});
+
 app.listen(port, function () {
   console.log("Server listening on port", port);
 });
