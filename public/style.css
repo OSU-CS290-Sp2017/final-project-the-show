@@ -1,0 +1,33 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 0;
+  background-color: rgb(40, 44, 52);
+  font-size: 20px;
+  height: 50px;
+}
+
+.navlist {
+  margin: 0 0 0 20px;
+  padding: 8px;
+
+}
+
+.navitem {
+  display: inline-block;
+  float: right;
+  margin: 5px 5px;
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+}
