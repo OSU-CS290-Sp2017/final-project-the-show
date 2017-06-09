@@ -11,6 +11,16 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/' function(req, res, next){
+  var templateArgs = {
+    dishes: menuData.id,
+    name: menuData.name,
+    price: menuData.price
+  }
+  res.status(200);
+  res.render('menuPage', templateArgs);
+});
+
 app.listen(port, function () {
   console.log("Server listening on port", port);
 });

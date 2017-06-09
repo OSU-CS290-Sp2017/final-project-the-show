@@ -1,126 +1,126 @@
 [
   {
-    "id":"A2",
+    "id":"./public/pics/A2",
     "name":"Steamed Chicken w/ Hot Chili Oil",
     "price":"11.99"
   },
 
   {
-    "id":"A8",
+    "id":"./public/pics/A8",
     "name":"Szechuan Red Oil Wonton",
     "price":"8.99"
   },
 
   {
-    "id":"B1",
+    "id":"./public/pics/B1",
     "name":"Beef Ribs w/ Black Pepper Saurce",
     "price":"19.99"
   },
 
   {
-    "id":"B2",
+    "id":"./public/pics/B2",
     "name":"Stir-fried Beef w/ Cumin",
     "price":"14.99"
   },
 
   {
-    "id":"B3",
+    "id":"./public/pics/B3",
     "name":"Braised Beef Brisket with Turnip",
     "price":"14.99"
   },
 
   {
-    "id":"S2",
+    "id":"./public/pics/S2",
     "name":"Braised Fish",
     "price":"14.99"
   },
 
   {
-    "id":"C4",
+    "id":"./public/pics/C4",
     "name":"XinJiang Chicken",
     "price":"14.99"
   },
 
   {
-    "id":"C7",
+    "id":"./public/pics/C7",
     "name":"Chicken w/ Ginger and Green Onion",
     "price":"14.99"
   },
 
   {
-    "id":"D9",
+    "id":"./public/pics/D9",
     "name":"Pork Hot & Spicy Dried Pot",
     "price":"14.99"
   },
 
   {
-    "id":"D14",
+    "id":"./public/pics/D14",
     "name":"Pork Trotter Hot & Spicy Dried Pot",
     "price":"15.99"
   },
 
   {
-    "id":"H6",
+    "id":"./public/pics/H6",
     "name":"Fish Filet w/ Hot & Spicy Gravy",
     "price":"15.99"
   },
 
   {
-    "id":"H12",
+    "id":"./public/pics/H12",
     "name":"Home-Style Pot",
     "price":"15.99"
   },
 
   {
-    "id":"P1",
+    "id":"./public/pics/P1",
     "name":"Twice Cooked Pork Belly",
     "price":"13.99"
   },
 
   {
-    "id":"P2",
+    "id":"./public/pics/P2",
     "name":"Braised Dongpo Pork Belly",
     "price":"14.99"
   },
 
   {
-    "id":"P4",
+    "id":"./public/pics/P4",
     "name":"Shredded Pork w/ Green Pepper",
     "price":"12.99"
   },
 
   {
-    "id":"P16",
+    "id":"./public/pics/P16",
     "name":"Garlic Spiced Ribs",
     "price":"14.99"
   },
 
   {
-    "id":"S5",
+    "id":"./public/pics/S5",
     "name":"Sauteed Squid w/ Black Pepper & Salt",
     "price":"15.99"
   },
 
   {
-    "id":"V3",
+    "id":"./public/pics/V3",
     "name":"Home-Style Tofu",
     "price":"10.99"
   },
 
   {
-    "id":"V7",
+    "id":"./public/pics/V7",
     "name":"Dried-cook Green Bean",
     "price":"11.99"
   },
 
   {
-    "id":"B4",
+    "id":"./public/pics/B4",
     "name":"Dry Tofu Lamb Clay Pot",
     "price":"17.99"
   },
 
   {
-    "id":"B5",
+    "id":"./public/pics/B5",
     "name":"Pork Ear w/ Red Oil",
     "price":"14.99"
   }
