@@ -35,4 +35,37 @@ a {
 .menu-page {
   margin: 0px 10%;
   border: 5px solid rgb(0, 120, 173);
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.menu-container {
+  width: 75%;
+}
+
+.title-container {
+  padding-left: 30px;
+}
+
+.menu-card {
+  max-width: 274px;
+  flex: 1 20%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+.menu-image {
+  height: 200px;
+  width: 250px;
+}
+
+.cart-container {
+  width: 25%;
+  background-color: red;
+  border: 3px solid #ccc;
+  display: block;
 }

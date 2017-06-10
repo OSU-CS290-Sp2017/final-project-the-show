@@ -2,16 +2,25 @@
 
 <main class='menu-page'>
 
-  <div class='title-container'>
-    <h1>Menu</h1>
+  <div class='menu-container'>
+    <div class='title-container'>
+      <h1>Menu</h1>
+    </div>
+
+    <div class='menu-card-container'>
+
+      {{#each dishes}}
+        {{> menuCard}}
+      {{/each}}
+
+    </div>
+
+    <div class='cart-container'>
+      <h2>check out</h2>
+    </div>
+
   </div>
 
-  <div class='menu-card-container'>
 
-    {{#each dishes}}
-      {{> menuCard}}
-    {{/each}}
-
-  </div>
 
 </main>

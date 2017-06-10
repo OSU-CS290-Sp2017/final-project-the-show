@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res, next){
   var templateArgs = {
-    dishes: menuData.id,
+    dishes: menuData.photos,
     name: menuData.name,
     price: menuData.price
   }
