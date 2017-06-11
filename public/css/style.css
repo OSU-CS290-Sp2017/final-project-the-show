@@ -36,6 +36,11 @@ a {
 
 }
 
+h3{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .orderButton {
 	border-radius: 2px;
 	position: relative;
@@ -163,7 +168,7 @@ h1 {
   padding-top: 3px;
 }
 
-h3{
+h4{
   text-align: left;
 }
 
