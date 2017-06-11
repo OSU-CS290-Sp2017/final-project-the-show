@@ -29,11 +29,32 @@ a {
 /* mainPage */
 
 .carousel-inner {
-
   max-width:70%;
   height:70%;
   margin: auto;
+}
 
+.body-text {
+  position: absolute;
+  top: 33%;
+  left: 1.8%;
+  right: auto;
+  width: 96.66666666666666%;
+  color: #fff;
+}
+
+.body-text h2 {
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #DA251D;
+  display:inline-block;
+  color:#fff;
+}
+
+.body-text h3 {
+  color: #fff;
 }
 
 .orderButton {
@@ -161,10 +182,6 @@ h1 {
   margin-bottom: 0;
   height: 50px;
   padding-top: 3px;
-}
-
-h3{
-  text-align: left;
 }
 
 .check-out-summary {
