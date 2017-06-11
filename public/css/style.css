@@ -8,16 +8,67 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+
+.navbar-header {
+  padding-left: 25px;
+}
+
 .navbar {
   margin: 0;
   font-size: 20px;
   border-radius: 0px;
+  height: 55px;
 }
 
 .navbar-nav {
   float: right;
-  padding-right: 10px;
+  padding-right: 150px;
 }
+
+/* mainPage */
+
+.carousel-inner {
+
+  max-width:50%;
+  height:50%;
+
+}
+
+.orderButton {
+	border-radius: 2px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 14px;
+}
+
+a.orderButton:focus {
+  outline: 0;
+}
+
+.orderButton-1 {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 15px;
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.orderButton-1:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* menuPage */
 
 a {
   color: white;

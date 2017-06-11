@@ -12,17 +12,20 @@ app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res, next){
+  res.status(200).render('mainPage');
+});
+
+app.get('/home', function(req, res, next){
+  res.status(200).render('mainPage');
+});
+
+app.get('/menu', function(req, res, next){
   var templateArgs = {
     dishes: menuData.photos,
     name: menuData.name,
     price: menuData.price
   }
-  res.status(200);
-  res.render('menuPage', templateArgs);
-});
-
-app.get('/main', function(req, res, next){
-  res.render('mainPage');
+  res.status(200).render('menuPage', templateArgs);
 });
 
 app.listen(port, function () {
