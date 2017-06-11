@@ -17,7 +17,6 @@ a {
 
 .navlist {
   margin: 0 0 0 20px;
-  /*padding-top: 5px;*/
   padding-right: 100px;
 }
 
@@ -36,15 +35,24 @@ a {
   margin: 0px 10%;
   border: 5px solid rgb(0, 120, 173);
   flex-wrap: wrap;
-  display: inline-block;
 }
 
 .menu-container {
-  width: 75%;
+  width: 100%;
+  display: inline-block;
 }
 
 .title-container {
   padding-left: 30px;
+  width: 72%;
+  float: left;
+}
+
+.menu-card-container {
+  width: 75%;
+  margin-right: 0px;
+  float: left;
+
 }
 
 .menu-card {
@@ -64,8 +72,55 @@ a {
 }
 
 .cart-container {
-  width: 25%;
-  background-color: red;
+  width: 23%;
+  /*background-color: white;*/
   border: 3px solid #ccc;
-  display: block;
+  display: inline-block;
+  float: right;
+  margin: 5px;
+  /*height: 70%;*/
+}
+
+.order-head {
+  text-align: center;
+  background-color: rgb(40, 44, 52);
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+.order-body {
+  text-align: center;
+}
+
+#check-out-botton {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border: 3px solid white;
+  margin-left: 28px;
+  margin-top: 5px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 50px;
+  padding-top: 3px;
+}
+
+h3{
+  text-align: left;
+}
+
+.check-out-summary {
+  background-color: rgb(229, 237, 243); 
 }
