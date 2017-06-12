@@ -28,6 +28,10 @@ app.get('/menu', function(req, res, next){
   res.status(200).render('menuPage', templateArgs);
 });
 
+app.get('/admin', function(req, res, next) {
+  res.status(200).render('adminPage');
+});
+
 app.listen(port, function () {
   console.log("Server listening on port", port);
 });
