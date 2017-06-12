@@ -1,43 +1,16 @@
-{{> header}}
+<body>
 
-<main class='menu-page'>
+  <div class="album text-muted">
+    <div class="container" id="menu-container">
 
-  <div class='menu-container'>
-
-    <div class='title-container'>
-      <h1>Menu</h1>
-    </div>
-
-    <div class='menu-card-container'>
-
-      {{#each dishes}}
-        {{> menuCard}}
-      {{/each}}
-
-    </div>
-
-    <div class='cart-container'>
-
-      <div class='order-head'>
-        <h2>Your Order</h2>
+      <div class="row">
+          {{#each dishes}}
+            {{> menuCard}}
+          {{/each}}
       </div>
 
-      <div class='order-body'>
-
-        <div id='check-out-botton'>
-          <a href="checkout"><h1>check out</h1></a>
-        </div>
-
-        <div class='check-out-summary'>
-          <h4>Beef Ribs w/ Black Pepper Saurce</h4>
-        </div>
-
       </div>
-
     </div>
-
   </div>
 
-
-
-</main>
+</body>
