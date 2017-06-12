@@ -32,6 +32,10 @@ app.get('/admin', function(req, res, next) {
   res.status(200).render('adminPage');
 });
 
+app.get('/checkout', function(req, res, next){
+  res.status(200).render('checkoutPage');
+});
+
 app.listen(port, function () {
   console.log("Server listening on port", port);
 });
