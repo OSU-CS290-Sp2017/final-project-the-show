@@ -23,7 +23,16 @@ app.get('/menu', function(req, res, next){
   var templateArgs = {
     dishes: menuData.photos,
     name: menuData.name,
-    price: menuData.price
+
+  }
+  res.status(200).render('menuPage', templateArgs);
+});
+
+app.get('/menu', function(req, res, next){
+  var templateArgs = {
+    dishes: menuData.photos,
+    name: menuData.name,
+
   }
   res.status(200).render('menuPage', templateArgs);
 });
