@@ -29,7 +29,12 @@ app.get('/menu', function(req, res, next){
 });
 
 app.get('/admin', function(req, res, next) {
-  res.status(200).render('adminPage');
+  var templateArgs = {
+//    dishes: menuData.photos,
+    name: menuData.name,
+    price: menuData.price
+  }
+  res.status(200).render('adminPage',templateArgs);
 });
 
 app.get('/checkout', function(req, res, next){
