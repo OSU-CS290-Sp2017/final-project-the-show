@@ -39,7 +39,7 @@ app.get('/menu', function(req, res, next){
 
 app.get('/admin', function(req, res, next) {
   var templateArgs = {
-//    dishes: menuData.photos,
+    section : menuData.photos,
     name: menuData.name,
     price: menuData.price
   }

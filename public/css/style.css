@@ -141,3 +141,13 @@ a.Button:focus {
 .card-text {
   font-size: 100%;
 }
+
+/* adminPage */
+.form-control{
+  padding-left:0px;
+
+}
+
+.sub-header{
+  padding-top:60px;
+}
