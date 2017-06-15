@@ -28,15 +28,6 @@ app.get('/menu', function(req, res, next){
   res.status(200).render('menuPage', templateArgs);
 });
 
-app.get('/menu', function(req, res, next){
-  var templateArgs = {
-    dishes: menuData.photos,
-    name: menuData.name,
-
-  }
-  res.status(200).render('menuPage', templateArgs);
-});
-
 app.get('/admin', function(req, res, next) {
   res.status(200).render('adminPage');
 });
