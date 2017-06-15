@@ -146,12 +146,19 @@ a.Button:focus {
 
 #checkout-container {
   padding-top: 50px;
-  padding-left: 150px;
+  margin: 0px 50px 0px 100px;
+  position: relative;
+  width: 100%;
 }
 
 #checkout-row {
   padding-top: 50px;
   min-width: 10px;
+}
+
+.media-body{
+  padding-left:10px;
+
 }
 /* adminPage */
 .form-control{
