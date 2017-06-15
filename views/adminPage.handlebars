@@ -1,1 +1,41 @@
+<body>
 
+
+<h2 class="sub-header">Manage Menu</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th><h3>#</h3></th>
+                  <th><h3>Name</h3></th>
+                  <th><h3>Price</h3></th>
+                  <th><h3>Pic</h3></th>
+                  <th><h3>Action</h3></th>
+                </tr>
+              </thead>
+              <tbody>
+                {{#each section}}
+                {{>adminCard}}
+                {{/each}}
+              <tr>
+                <td><input type="text" class="form-control" placeholder="ID"></td>
+                <td><input type="text" class="form-control" placeholder="Name"></td>
+                <td><input type="text" class="form-control" placeholder="price"></td>
+                <td><input type="text" class="form-control" placeholder="Pic URL"></td>
+                <td><button type="button" class="btn btn-success">Add</button></td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+
+
+
+
+<!--{{>footer}}-->

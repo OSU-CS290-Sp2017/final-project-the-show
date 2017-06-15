@@ -152,3 +152,12 @@ a.Button:focus {
   padding-top: 50px;
   min-width: 10px;
 }
+/* adminPage */
+.form-control{
+  padding-left:0px;
+
+}
+
+.sub-header{
+  padding-top:60px;
+}
