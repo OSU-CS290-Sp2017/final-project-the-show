@@ -2,10 +2,9 @@
  * Header js control
  */
  console.log("index.js loaded");
-
-
-
  var allmenu = [];
+ var name;
+ var price;
  function generateNewmenuElem(Numbers, names ,Prices, PicURL ) {
 
     var menuTemplate = Handlebars.templates.adminCard;
@@ -71,16 +70,6 @@ function insertNewDishes () {
   console.log(JSON.stringify({dishes:[obj]}));
 }
 
-
-var addbutton = document.getElementById('add-button');
-  addbutton.addEventListener('click',insertNewmenu);
-
-var removebutton = document.getElementById('remove-button');
-  removebutton.addEventListener('click',deleteRow);
-
-var name;
-var price;
-
 $('.btn-outline-secondary').click(function(){
   name = $(this).attr("name");
   price = $(this).attr("price");
@@ -92,3 +81,9 @@ $('.btn-outline-secondary').click(function(){
 function insertinfon (){
   document.getElementById('product-name').innerHTML = name;
 }
+
+var addbutton = document.getElementById('add-button');
+  addbutton.addEventListener('click',insertNewmenu);
+
+var removebutton = document.getElementById('remove-button');
+  removebutton.addEventListener('click',deleteRow);
