@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "handlebars views/partials/menuCard.handlebars -f public/menuTemplate.js",
+    "build": "handlebars views/partials/adminCard.handlebars views/partials/menuCard.handlebars -f public/adminTemplate.js ",
     "prestart": "npm run build",
     "start": "node server.js"
   },
@@ -22,6 +22,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.10"
+    "handlebars": "^4.0.10",
+    "handlebars-json": "^1.0.1",
+    "hbs-json": "^0.1.1"
   }
 }

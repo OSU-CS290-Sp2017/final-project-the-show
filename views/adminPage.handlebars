@@ -13,16 +13,16 @@
                   <th><h3>Action</h3></th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody id="admin-card">
                 {{#each section}}
                 {{>adminCard}}
                 {{/each}}
-              <tr>
-                <td><input type="text" class="form-control" placeholder="ID"></td>
-                <td><input type="text" class="form-control" placeholder="Name"></td>
-                <td><input type="text" class="form-control" placeholder="price"></td>
-                <td><input type="text" class="form-control" placeholder="Pic URL"></td>
-                <td><button type="button" class="btn btn-success">Add</button></td>
+              <tr class= "text-input-element">
+                <td><input type="text" class="form-control" id='number-input' placeholder="ID"></td>
+                <td><input type="text" class="form-control" id='name-input' placeholder="Name"></td>
+                <td><input type="text" class="form-control" id='price-input' placeholder="price"></td>
+                <td><input type="text" class="form-control" id='picurl-input' placeholder="Pic URL"></td>
+                <td><button type="button" class="btn btn-success" id='add-button'>Add</button></td>
               </tr>
               </tbody>
             </table>
