@@ -76,7 +76,9 @@ $('.btn-outline-secondary').click(function(){
   price = $(this).attr("price");
   console.log(name);
   console.log(price);
-  alert('dish added to check out cart');
+  alert('Dish added to check out cart\nDish: ' + name + '\nPrice: ' + price);
+//  alert('Dish: ', name);
+//  alert('Price: ', price);
 });
 
 function insertinfon (){
