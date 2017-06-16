@@ -43,8 +43,7 @@
 
 
   function deleteRow(r) {
-    var row = r.parentNode;
-    document.getElementById('admin-card').deleteRow(row);
+    $(r).parent().parent().remove();
   }
 /*
  window.addEventListener('DOMContentLoaded', function () {
