@@ -4,6 +4,7 @@
  console.log("index.js loaded");
 
 
+
  var allmenu = [];
  function generateNewmenuElem(Numbers, names ,Prices, PicURL ) {
 
@@ -26,26 +27,24 @@
     var newmenu = generateNewmenuElem(numberinput, nameinput, priceinput, picinput);
     var adminContainer = document.getElementById('admin-card');
     adminContainer.insertAdjacentHTML('afterbegin',newmenu);
-
+    clearTextInputValues()
     var menuContainer = document.getElementById('menu-card');
     menuContainer.insertAdjacentHTML('afterbegin',newmenu);
-    clearTwitInputValues();
-  }
-
-  function clearTwitInputValues() {
-
-    var textInputElems = document.getElementsByClassName('text-input-element');
-    for (var i = 0; i < textInputElems.length; i++) {
-      var input = textInputElems[i].querySelector('input, textarea');
-      input.value = '';
-    }
 
   }
 
-  function deleteRow(rowid)
-  {
-      var row = document.getElementById('adminCard');
-      row.parentNode.removeChild(row);
+  function clearTextInputValues() {
+    document.getElementById('number-input').value = "";
+    document.getElementById('name-nput').value = "";
+    document.getElementById('price-input').value = "";
+    document.getElementById('picurl-input').value = "";
+
+  }
+
+
+  function deleteRow(r) {
+    var row = r.parentNode;
+    document.getElementById('admin-card').deleteRow(row);
   }
 /*
  window.addEventListener('DOMContentLoaded', function () {
